@@ -9,7 +9,7 @@
             <table cellpadding="10" cellspacing="0" border="0" bgcolor="#2F2C2B" width="600" align="center" class="header">
                 <tr>
                     <td class="logo" style="border-collapse: collapse; vertical-align: middle; padding-left:34px; padding-top:20px; padding-bottom:12px" valign="middle">
-                        <img src="{{ $message->embed(public_path('images/invoiceninja-logo.png')) }}" alt="Invoice Ninja" />
+                        <img src="{{ $message->embed(public_path('images/logo_telemovil_sg.png')) }}" alt="Invoice Ninja" />
                     </td>
                 </tr>
             </table>

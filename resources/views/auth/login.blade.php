@@ -77,7 +77,7 @@
                     {!! link_to('/recover_password', trans('texts.recover_password')) !!}
                 </div>
                 <div class="col-md-5 col-sm-12">
-                    {!! link_to(NINJA_WEB_URL.'/knowledgebase/', trans('texts.knowledge_base'), ['target' => '_blank']) !!}
+                    {{-- {!! link_to(NINJA_WEB_URL.'/knowledgebase/', trans('texts.knowledge_base'), ['target' => '_blank']) !!} --}}
                 </div>
             @endif
         </div>

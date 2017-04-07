@@ -1,8 +1,8 @@
 {{ trans('texts.powered_by') }}
 
 {{-- Per our license, please do not remove or modify this section. --}}
-{!! link_to('https://www.invoiceninja.com/?utm_source=powered_by', 'InvoiceNinja.com', ['target' => '_blank', 'title' => trans('texts.created_by', ['name' => 'Hillel Coren'])]) !!} -
-{!! link_to(RELEASES_URL, 'v' . NINJA_VERSION, ['target' => '_blank', 'title' => trans('texts.trello_roadmap')]) !!} |
+{!! link_to('https://www.telemovildata.com', 'telemovildata.com', ['target' => '_blank', 'title' => trans('texts.created_by', ['name' => 'Hillel Coren'])]) !!} - invoiceninja
+{!! link_to(RELEASES_URL, 'v' . NINJA_VERSION, ['target' => '_blank', 'title' => trans('texts.trello_roadmap')]) !!} 
 
 @if (Auth::user()->account->hasFeature(FEATURE_WHITE_LABEL))
   {{ trans('texts.white_labeled') }}
@@ -13,7 +13,7 @@
     ]) !!}</b>
   @endif
 @else
-  <a href="#" onclick="showWhiteLabelModal()">{{ trans('texts.white_label_link') }}</a>
+  {{-- <a href="#" onclick="showWhiteLabelModal()">{{ trans('texts.white_label_link') }}</a> --}}
 
   <div class="modal fade" id="whiteLabelModal" tabindex="-1" role="dialog" aria-labelledby="whiteLabelModalLabel" aria-hidden="true">
     <div class="modal-dialog">

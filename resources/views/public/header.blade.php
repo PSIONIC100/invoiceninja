@@ -71,7 +71,7 @@
                 @if (!isset($account) || !$account->hasFeature(FEATURE_WHITE_LABEL))
                     {{-- Per our license, please do not remove or modify this link. --}}
                     <a class="navbar-brand" href="{{ URL::to(NINJA_WEB_URL) }}" target="_blank"><img
-                                src="{{ asset('images/invoiceninja-logo.png') }}" style="height:27px"></a>
+                                src="{{ asset('images/logo_telemovil_sg.png') }}" style="height:27px"></a>
                 @endif
             </div>
             <div id="navbar" class="collapse navbar-collapse">
